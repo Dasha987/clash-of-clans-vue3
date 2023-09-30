@@ -11,6 +11,9 @@
     color: #ffffff;
     border: 1px solid #333333;
     background-color: #333333;
+    &.btnDefault:hover {
+      color: $purple-color-100;
+    }
   }
 
   // primary btn

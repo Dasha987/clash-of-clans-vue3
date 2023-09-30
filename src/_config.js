@@ -9,7 +9,7 @@ export const links = [
     url: '/'
   },
   {
-    title: 'О сайте',
-    url: '/about'
+    title: 'Контакты',
+    url: '/contact'
   }
 ]

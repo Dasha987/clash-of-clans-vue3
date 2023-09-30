@@ -1,6 +1,14 @@
 $border-radius-size: 14px;
 
+.wrapper-content__card {
+  display: flex;
+  flex-direction: column;
+  min-height: 650px;
+  // margin-top: 30px;
+}
+
 .card {
+  cursor: pointer;
   width: 300px;
   display: inline-block;
   margin: auto;
@@ -39,8 +47,19 @@ $border-radius-size: 14px;
 }
 
 .card-body {
-  padding: 20px;
-  margin-bottom: 16px;
+  padding: 0 20px;
+  margin: 0 0 20px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.card-stats {
+  display: flex;
+  justify-content: space-between;
+  background-color: $purple-color-100;
+  border-bottom-left-radius: $border-radius-size + 5 $border-radius-size + 5;
+  border-bottom-right-radius: $border-radius-size + 5 $border-radius-size + 5;
+  padding: 10px 20px;
 }
 
 // .card-footer {

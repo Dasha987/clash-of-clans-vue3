@@ -1,0 +1,31 @@
+.wrapper-item {
+  text-align: center;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.item-text {
+  margin: 0 auto;
+  max-width: 600px;
+  cursor: default;
+}
+
+.items-info {
+  cursor: default;
+  box-sizing: border-box;
+  display: flex;
+  max-width: 500px;
+  background-color: $purple-color-100;
+  border-radius: 40px;
+  margin: 10px auto 0;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.item-info__title {
+  color: #333333;
+  font-weight: 700;
+}

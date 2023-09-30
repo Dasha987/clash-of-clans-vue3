@@ -1,11 +1,18 @@
 <template>
   <div class="card">
     <div v-if="imgUrl" class="card-img__wrapper">
-      <img class="card-img" :src="imgUrl" alt="title" />
+      <img
+        class="card-img"
+        :src="require(`@/assets/images/${imgUrl}`)"
+        alt="title"
+      />
     </div>
     <span class="card-name">{{ name }}</span>
     <span class="card-title">{{ title }}</span>
-    <div class="card-body"><slot></slot></div>
+    <div class="card-body">
+      <slot name="body"></slot>
+    </div>
+    <slot name="footer"></slot>
   </div>
 </template>
 
