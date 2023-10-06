@@ -10,6 +10,6 @@ export const links = [
   },
   {
     title: 'Контакты',
-    url: '/contact'
+    url: '/contacts'
   }
 ]
