@@ -7,7 +7,14 @@
 - Vue-router в связке Vue.js 3;
 - динамические маршруты;
 - храниение и взаимодействие с данными из Seeders;
+- Options API;
 - слайдер с персонажами с использованием vue-carousel.
+***
+### Просмотр проекта
+
+
+https://github.com/Dasha987/clash-of-clans-vue3/assets/33686892/ed797bf8-e139-4521-99da-a51fc1d2f686
+
 ***
 ## Project setup
 
