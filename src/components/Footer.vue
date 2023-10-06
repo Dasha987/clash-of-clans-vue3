@@ -28,14 +28,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-.navbar-item-footer {
-  opacity: 0.6;
-  font-size: 14px;
-}
-
-.navbar-list-footer {
-  margin-top: 14px;
-}
-</style>

@@ -26,7 +26,6 @@
 <script>
 import Card from '@/components/UI/Card.vue'
 import items from '@/seeders/items.json'
-
 import { Carousel, Slide } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
 
@@ -54,5 +53,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss"></style>
