@@ -10,11 +10,11 @@
           <div>{{ item.value }}</div>
         </div>
       </div>
-    </div>
-    <div>
-      <router-link to="/" class="btn btnDefault"
-        >Вернуться на главную</router-link
-      >
+      <div class="item-btn">
+        <router-link to="/" class="btn btnDefault"
+          >Вернуться на главную</router-link
+        >
+      </div>
     </div>
   </div>
 </template>
@@ -31,7 +31,8 @@ export default {
   created() {
     const alias = this.$route.params.alias
     const item = items.find(el => el.alias === alias)
-    this.item = item
+
+    item ? (this.item = item) : this.$router.push('/:pathMatch(.*)')
   }
 }
 </script>

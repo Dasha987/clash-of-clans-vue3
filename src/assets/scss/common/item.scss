@@ -1,6 +1,5 @@
 .wrapper-item {
   text-align: center;
-  gap: 10px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -28,4 +27,8 @@
 .item-info__title {
   color: #333333;
   font-weight: 700;
+}
+
+.item-btn {
+  margin-top: 10px;
 }

@@ -22,7 +22,7 @@ const routes = [
   },
   // будет отобраться страница по иным маршрутам, кроме существующих
   {
-    path: '/:CatchAll(.*)',
+    path: '/:pathMatch(.*)',
     name: '404',
     component: NotFoundPage
   }
